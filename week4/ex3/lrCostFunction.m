@@ -36,7 +36,6 @@ grad = zeros(n);
 %           temp(1) = 0;   % because we don't add anything for j = 0  
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
-
 theta_reg = [0;theta(2:end)];
 reg = ( lambda/(2*m) )*sum(theta_reg .^ 2);
 
